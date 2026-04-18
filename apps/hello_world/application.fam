@@ -8,7 +8,7 @@ App(
     fap_category="Examples",
     fap_icon="images/hello_10px.png",
     fap_icon_assets="images",
-    fap_author="tim",
+    fap_author="timFinn",
     fap_version="0.1",
     fap_description="First FAP in the flipper-dev monorepo.",
     sources=["*.c"],
