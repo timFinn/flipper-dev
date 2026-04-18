@@ -1,0 +1,15 @@
+# ufbt build artifacts
+.ufbt/
+dist/
+build/
+*.fap
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store

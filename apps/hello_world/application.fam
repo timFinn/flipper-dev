@@ -1,0 +1,15 @@
+App(
+    appid="hello_world",
+    name="Hello World",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hello_world_app",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_category="Examples",
+    fap_icon="images/hello_10px.png",
+    fap_icon_assets="images",
+    fap_author="tim",
+    fap_version="0.1",
+    fap_description="First FAP in the flipper-dev monorepo.",
+    sources=["*.c"],
+)
