@@ -23,7 +23,7 @@ list:
 
 build:
 ifdef APP
-	$(MAKE) -C $(APPS_DIR)/$(APP) -f /dev/null build-one
+	cd $(APPS_DIR)/$(APP) && ufbt
 	@echo "Built: $(APPS_DIR)/$(APP)/dist/"
 else
 	@for a in $(APPS); do \
